@@ -6,6 +6,22 @@ body{
     background-color: #000000;
     font-family: 'Lato', sans-serif;
 }
+h1{
+    font-weight: 500;
+    font-size: 4rem;
+    color:rgb(255, 255, 255)
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color:rgb(255, 255, 255)
+}
+span{
+    color:rgb(255, 0, 0)
+}
 *{
     box-sizing: border-box;
 }
@@ -24,30 +40,33 @@ input{
     border: none;
 }
 .logo img{
-    width: 115px;
+    width: 110px;
 }
 #main{
-    width:100%;
-    height:768px;
+    width: 100%;
+    height: 1400px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url('./images/banner.png'); */
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url("./Components/images/ironground_member.jpg");
     position: relative;
     z-index: 0;
+    /* background-blend-mode: multiply; */
 }
 #main::before{
     position: absolute;
     content: "";
-    background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
-    background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(26, 24, 24, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(26, 24, 24, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: radial-gradient(ellipse at center, rgba(26, 24, 24, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
+    /* background-blend-mode: multiply; */
+    
 }
 nav{
 	display: flex;
@@ -70,7 +89,7 @@ nav ul{
 }
 .active{
     background-color: #FF1414;
-    color:#ffffff;
+    color:#131010;
 	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
 	transition: all ease 0.2s;
 }
@@ -135,6 +154,20 @@ nav .menu-btn,
 	letter-spacing: 2px;
 	color:#ffffff;
 }
+.header-heading{
+    width:100%;
+    height:120vh;
+    box-sizing: border-box;
+    font-family:'Lato';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px ;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    /* background-color: #000000; */
+}
 .header-btns{
     display: flex;
     margin-top: 40px;
@@ -170,23 +203,25 @@ nav .menu-btn,
     justify-content: center;
     padding-top: 40px ;
     background-color: #000000;
+    /* background-image: url('./Components/images/inside.jpg'); */
 }
 #features h1{
     color: #fff;
     font-size: 3rem;
+    font-weight: 500;
 }
 .a-container{
     display: flex;
     justify-content: center;
     align-content: center;
-
+    
 
 }
 .a-box{
     background-color: #000000;
     width:250px;
     height: 400px;
-    margin: 20px;
+    margin: 40px;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.4s ease-in-out;
@@ -199,11 +234,19 @@ nav .menu-btn,
 }
 .a-b-img img{
     padding: 15px;
+    margin-top: 15px;
+    width:100%;
+    height: %;
+
+}
+/* .a-b-img img{
+    padding: 15px;
     margin-top: 40px;
     width:100%;
     height: 50%;
 
-}
+} */
+
 .a-box:hover{
     border: 1px solid #FF1414;
     box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
