@@ -26,11 +26,13 @@ function Navbar() {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><Link to= '#'>Header</Link></li>
                 <li><Link to= '#'>About</Link></li>
                 <li><Link to= '#'>Services</Link></li>
                 <li><Link to= '#'>Trainers</Link></li>
+                <li><Link to= '#'>Events</Link></li>
                 <li><Link to= '#'>Contact</Link></li>
+                <li><Link to= '#'>Log In</Link></li>
+                
             </ul>
         </nav>
     )
