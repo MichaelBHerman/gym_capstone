@@ -8,7 +8,8 @@ function Header() {
                 <h1><span>FITNESS</span> WITH IRONGROUND</h1>
                 <p className='details'>Build Your Body And Fitness With Professional Trainers</p>
                 <div className='header-btns'>
-                    <a href='#' className='header-btn'>SIGN UP</a>
+                    <a href='#' className='header-btn'>REGISTER</a>
+                    <a href='#' className='header-btn'>LOG IN</a>
             </div>
         </div>
     </div>

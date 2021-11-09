@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Services from './Components/Services';
 import Trainers from './Components/Trainers';
-
+import Register from './Components/Register';
 
 function App() {
   return (
@@ -12,6 +12,10 @@ function App() {
      <Header/>
      <Services/>
      <Trainers/>
+    
+     {/* <Register/> */}
+    
+     
    </div>
   );
 }

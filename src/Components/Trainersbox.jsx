@@ -9,6 +9,7 @@ function Trainersbox(props) {
             <div className='a-b-text'>
                 <h2> {props.title} </h2>
                 <p> This is an introduction placeholder for this service </p>
+                <button className='trainer-btn'>CLICK TO SCHEDULE!</button>
             </div>
 
         </div>

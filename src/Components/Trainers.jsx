@@ -13,7 +13,7 @@ function Trainers() {
             <h1>TRAINERS</h1>
             <h4>Choose from our award-winning trainers that specialize in your specific needs.</h4>
             <div className='a-container'>
-            <Trainersbox image={timage1} title="Julie" />
+            <Trainersbox image={timage1} title="Julie"/>
             <Trainersbox image={timage2} title="Jacob" />
             <Trainersbox image={timage3} title="Kayla" />
             <Trainersbox image={timage4} title="Alex" />
