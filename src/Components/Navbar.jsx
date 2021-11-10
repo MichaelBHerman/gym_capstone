@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 import logo from './images/logo.jpg';
+import './form.css';
 
 function Navbar() {
 
@@ -18,20 +19,20 @@ function Navbar() {
 
     return(
         <nav className={nav ? "nav active" : "nav"}>
-            <Link to='#' className='logo'>
+            <NavLink to='/' className='logo'>
                 <img src={logo} alt=''/>
-            </Link>
+            </NavLink>
             <input className="menu-btn" type='checkbox' id='menu-btn'/>
             <label className='menu-icon' for='menu-btn'>
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><Link to= '#'>About</Link></li>
-                <li><Link to= '#'>Services</Link></li>
-                <li><Link to= '#'>Trainers</Link></li>
-                <li><Link to= '#'>Events</Link></li>
-                <li><Link to= '#'>Contact</Link></li>
-                <li><Link to= '#'>Log In</Link></li>
+                <li><NavLink to= '#'>About</NavLink></li>
+                <li><NavLink to= '#'>Services</NavLink></li>
+                <li><NavLink to= '/trainers'>Trainers</NavLink></li>
+                <li><NavLink to= '#'>Events</NavLink></li>
+                <li><NavLink to= '#'>Contact</NavLink></li>
+                <li><NavLink to= '/register'>Log In</NavLink></li>
                 
             </ul>
         </nav>

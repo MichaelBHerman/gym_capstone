@@ -1,10 +1,10 @@
 import React from 'react';
 import validate from './validateInfo';
-import useForm from './Useform';
-import './form.css'
+import Useform from './Useform';
+import './form.css';
 
-const Register = ({ submitForm }) => {
-  const { handleChange, handleSubmit, values, errors } = useForm(
+const FormSignup = ({ submitForm }) => {
+  const { handleChange, handleSubmit, values, errors } = Useform(
     submitForm,
     validate
   );
@@ -75,4 +75,4 @@ const Register = ({ submitForm }) => {
   );
 };
 
-export default Register;
+export default FormSignup;

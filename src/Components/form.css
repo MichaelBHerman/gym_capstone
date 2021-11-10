@@ -1,5 +1,6 @@
 .form-container {
     margin: 100px auto;
+    margin-top: 230px;
     width: 1000px;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     position: relative;
@@ -9,12 +10,13 @@
     grid-template-columns: 1fr 1fr;
   }
   /* REGISTER CSS  */
-  .register{
+  /* .register{
     box-sizing: border-box;
     margin: 0;
+    margin-top: auto;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
-  }
+  } */
   
   .close-btn {
     position: absolute;
@@ -29,8 +31,8 @@
   .form-content-left {
     background: linear-gradient(
       90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
+      rgb(197, 18, 18) 0%,
+      rgba(77, 1, 1, 0.452) 100%
     );
     border-radius: 10px 0 0 10px;
     position: relative;
@@ -129,8 +131,8 @@
     border-radius: 2px;
     background: linear-gradient(
       90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
+      rgb(245, 53, 28) 0%,
+      rgb(251, 15, 15) 100%
     );
     outline: none;
     border: none;
@@ -142,8 +144,8 @@
     cursor: pointer;
     background: linear-gradient(
       90deg,
-      rgb(39, 143, 255) 0%,
-      rgb(12, 99, 250) 100%
+      rgb(248, 3, 3) 0%,
+      rgb(255, 0, 0) 100%
     );
     transition: all 0.4s ease-out;
   }
@@ -158,6 +160,6 @@
   
   .form-input-login a {
     text-decoration: none;
-    color: #27cdff;
+    color: #f30d0d;
     font-weight: 600;
   }
