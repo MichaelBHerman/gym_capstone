@@ -32,7 +32,8 @@ function Navbar() {
                 <li><NavLink to= '/trainers'>Trainers</NavLink></li>
                 <li><NavLink to= '/events'>Events</NavLink></li>
                 <li><NavLink to= '/contact'>Contact</NavLink></li>
-                <li><NavLink to= '/register'>Log In</NavLink></li>
+                <li><NavLink to= '/login'>Log In</NavLink></li>
+              
                 
             </ul>
         </nav>

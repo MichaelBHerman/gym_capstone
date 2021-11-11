@@ -63,9 +63,30 @@
     margin-top: 80px;
     color: #fff;
   }
+
+  .login-form-right {
+    border-radius: 0 10px 10px 0;
+    padding: 31rem;
+    position: relative;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  }
+  .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* CHANGE FORM WIDTH HERE */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .form-content-right {
     border-radius: 0 10px 10px 0;
+    /* padding: 31rem; */
     position: relative;
     background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
   }

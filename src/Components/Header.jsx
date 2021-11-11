@@ -9,7 +9,7 @@ function Header() {
                 <p className='details'>Build Your Body And Fitness With Professional Trainers</p>
                 <div className='header-btns'>
                     <a href='/register' className='header-btn'>REGISTER</a>
-                    <a href='#' className='header-btn'>LOG IN</a>
+                    <a href='/login' className='header-btn'>LOG IN</a>
             </div>
         </div>
     </div>
