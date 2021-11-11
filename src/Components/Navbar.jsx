@@ -28,7 +28,7 @@ function Navbar() {
             </label>
             <ul className='menu'>
                 <li><NavLink to= '#'>About</NavLink></li>
-                <li><NavLink to= '#'>Services</NavLink></li>
+                <li><NavLink to= './services'>Services</NavLink></li>
                 <li><NavLink to= '/trainers'>Trainers</NavLink></li>
                 <li><NavLink to= '#'>Events</NavLink></li>
                 <li><NavLink to= '#'>Contact</NavLink></li>

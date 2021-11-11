@@ -15,7 +15,7 @@ function App() {
      <Switch>
      
      <Route exact path='/' component={Header} />
-     {/* <Services/> */}
+     <Route path = '/services' component={Services} />
      <Route path='/trainers' component={Trainers} />
     
      <Route path='/register' component={Form} />
