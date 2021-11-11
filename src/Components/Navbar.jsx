@@ -30,7 +30,7 @@ function Navbar() {
                 <li><NavLink to= '/about'>About</NavLink></li>
                 <li><NavLink to= './services'>Services</NavLink></li>
                 <li><NavLink to= '/trainers'>Trainers</NavLink></li>
-                <li><NavLink to= '#'>Events</NavLink></li>
+                <li><NavLink to= '/events'>Events</NavLink></li>
                 <li><NavLink to= '/contact'>Contact</NavLink></li>
                 <li><NavLink to= '/register'>Log In</NavLink></li>
                 

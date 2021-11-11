@@ -7,6 +7,7 @@ import Form from './Components/Form';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Events from './Components/Events';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
      <Route path='/about' component={About} />
      <Route path='/register' component={Form} />
      <Route path='/contact' component={Contact} />
+     <Route path='/events' component={Events} />
 
     
      </Switch>
