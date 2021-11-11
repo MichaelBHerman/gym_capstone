@@ -24,6 +24,10 @@ h4{
     font-size: 20px;
     font-weight: 100;
 }
+.footer-images{
+    width: 20px;
+    height: 20px;
+}
 span{
     color:rgb(255, 0, 0)
 }
@@ -374,7 +378,7 @@ nav .menu-btn,
 }
 
 #about{
-    margin-top:100px ;
+    /* margin-top:100px ; */
 	width:100%;
 	height: 120vh;
 	box-sizing: border-box;
@@ -383,6 +387,7 @@ nav .menu-btn,
 	justify-content: space-between;
 	padding: 50px 5% 0px 5%;
 	position: relative;
+    /* margin: 25rem; */
 }
 
 .about-text{
@@ -423,7 +428,8 @@ nav .menu-btn,
     width: 50%;
 }
 .about-image img{
-  width: 600px;
+  width: 800px;
+  
 }
 
 #contact{
@@ -432,10 +438,12 @@ nav .menu-btn,
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* margin-top: 600px; */
 }
 #contact h1{
     color: #fff;
     font-size: 3rem;
+    margin-top: 15rem;
 }
 #contact form{
     width:600px;

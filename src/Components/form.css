@@ -48,12 +48,13 @@
   }
   
   .form-img-2 {
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 4rem;
   }
   
   .form-success {
@@ -75,7 +76,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     /* CHANGE FORM WIDTH HERE */
-    width: 40%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -163,3 +164,18 @@
     color: #f30d0d;
     font-weight: 600;
   }
+ .login-btn{
+  width: 90%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #FF1414;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+    border-radius: 5px;
+	color:#ffffff;
+    margin: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+ }
