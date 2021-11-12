@@ -10,7 +10,7 @@ import timage4 from './images/trainer5.jpeg';
 function Trainers() {
     return(
         <div id='features'>
-            <h1>TRAINERS</h1>
+            <h1>MEET OUR TRAINERS</h1>
             <h4>Choose from our award-winning trainers that specialize in your specific needs.</h4>
             <div className='a-container'>
             <Trainersbox image={timage1} title="Julie"/>

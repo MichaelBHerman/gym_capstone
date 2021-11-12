@@ -12,7 +12,13 @@ function About() {
             </div>
             <div className='about-text'>
                 <h1>LEARN MORE ABOUT US</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, excepturi iure. Ea amet voluptatem voluptas animi? Quia, aut molestias doloribus, ut minus ducimus sed nobis maxime voluptatibus in cum eos!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur debitis autem pariatur quis, optio aliquid facilis velit voluptate odit maiores assumenda nulla quidem, amet nemo quam laborum repellendus voluptatibus expedita.</p>
+                <p>At IronGround Gym, we believe real fitness is about more than getting on a treadmill and watching TV—it's about strengthening and conditioning your body and mind so you can get out there, explore the world, seek new adventures and be the person you were meant to be.</p><p>
+
+Located in Murray, our facility is a huge loft space with natural light and seasoned equipment from years of hard work—kinda like the Russian cabin where Rocky trained compared to the pristine lab of Ivan Drago. Except here, you are your only competition.
+
+Whether you’re new to fitness or an accomplished athlete, our coaches are highly trained and certified to help you set goals, teach proper form to prevent injury, and design training programs that include basic barbell exercises, olympic lifts, kettlebells, gymnastics, running, rowing, throwing, and a long list of bodyweight movements.</p><p>
+
+Here, you’ll never feel lost, alone or confused about what exercises to do or how to do them. That’s because your IronGround membership includes a lot more than just a room full of equipment. Whether you’re looking for group classes or private training, we’ll take care of everything—just show up ready to move and let the transformation begin.</p>
             {/* </div>
             <div className='footer-images'> */}
                 <img src={facebook} width="100px" alt='facebook logo'/>

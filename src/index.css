@@ -221,7 +221,18 @@ nav .menu-btn,
     color: #ffffff;
     border: 2px solid #FF1414;
 }
-
+#services-features{
+    width:80%;
+    height:40vh;
+    box-sizing: border-box;
+    font-family:'Lato';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px ;
+    background-color: #000000;
+}
 #features{
     width:100%;
     height:120vh;
@@ -246,6 +257,14 @@ nav .menu-btn,
     align-content: center;
     
 
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ 
+    
+ 
 }
 .a-box{
     background-color: #000000;

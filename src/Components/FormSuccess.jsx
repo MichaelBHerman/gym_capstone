@@ -7,7 +7,7 @@ const FormSuccess = () => {
     <div className='form-content-right'>
       <h1 className='form-success'>You are now a member of IronGround Gym!</h1>
      
-      <a href='/register' className='login-btn'>LOGIN</a>
+      <a href='/login' className='login-btn'>LOG IN HERE</a>
      
       <img className='form-img-2' src={success} alt='success-image' />
       
