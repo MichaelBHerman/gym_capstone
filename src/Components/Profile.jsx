@@ -1,5 +1,10 @@
 import React from 'react';
 import './profile.css';
+import StripeCheckout from 'react-stripe-checkout';
+
+function handleToken(token, addresses) {
+    console.log({ token, addresses})
+}
 
 function Profile () {
     return(
@@ -22,8 +27,13 @@ function Profile () {
                     <p>mike@gmail.com</p>
                  </div>
                  <div class="data">
-                   <h4>Membership Payment</h4>
-                    <p>$29.95 on 12/15/2021</p>
+                   <h4>Annual Membership Payment</h4>
+                    <p>$120.00</p>
+                    <StripeCheckout
+                    stripeKey="pk_test_51Jw4ZaLD8qOVapzOOS4UziAmbAtIzvkz8EBvViIVXxHi8FRkOlbaEMPpMYywsOQ6kU98KPPhfDHp8JGFzZHZVCsl00rfFaVTHM"
+                    token={handleToken}
+                    amount={120.00* 100}
+                    name={"IronGround Gym Membership"}/>
               </div>
             </div>
         </div>

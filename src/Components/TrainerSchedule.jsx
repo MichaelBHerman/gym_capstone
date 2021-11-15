@@ -1,6 +1,10 @@
 import React from 'react';
 import './profile.css';
 import timage2 from './images/trainer17.jpeg';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const notify = () => toast("Your Training Session is Scheduled!");
 
 function Profile () {
     return(
@@ -40,7 +44,7 @@ function Profile () {
             <div class="projects_data">
                  <div class="data">
                     <h4>Available Sessions</h4>
-                    <p>11/17/21 at 6pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
+                    <p>11/17/21 at 6pm. (1 Hour)    <button type='submit' onClick={notify}>SCHEDULE</button></p>
                     <p>11/18/21 at 7pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
                     <p>11/19/21 at 4pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
                     <p>11/20/21 at 6pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>

@@ -1,6 +1,15 @@
 import React from 'react';
 import './profile.css';
 import eimage3 from './images/nightmare_deadlift.jpg';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+const notify = () => toast("You have successfully registered!");
+  
+    
+
+
 
 function EventsSchedule () {
     return(
@@ -40,7 +49,7 @@ function EventsSchedule () {
             <div class="projects_data">
                  <div class="data">
                     <h4>Weight Groups</h4>
-                    <p>150-175 lbs    <button type='submit'>REGISTER</button></p>
+                    <p>150-175 lbs    <button type='submit' onClick={notify}>REGISTER</button></p>
                     <p>176-200 lbs   <button type='submit'>REGISTER</button></p>
                     <p>201-225 lbs    <button type='submit'>REGISTER</button></p>
                     <p>226-250 lbs    <button type='submit'>REGISTER</button></p>
