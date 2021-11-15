@@ -1,35 +1,42 @@
 import React from 'react';
 import './profile.css';
+import timage2 from './images/trainer17.jpeg';
 
 function Profile () {
     return(
         <div>
        
-           
-            <div class="wrapper">
+      
+        <div class="wrapper">
+            
     <div class="left">
-        {/* <img src="https://i.imgur.com/cMy8V5j.png" 
-        alt="user" width="100"> */}
-        <h4>Welcome, Michael Herman!</h4>
+    <h4>Schedule a session with Jacob!</h4>
+        <img src={timage2} 
+        alt="user" width='80%'/>
+        
         
     </div>
     <div class="right">
         <div class="info">
-            <h3>Information</h3>
+            <h3>JACOB WHITE</h3>
             <div class="info_data">
                  <div class="data">
-                    <h4>Email</h4>
-                    <p>mike@gmail.com</p>
+                    <h4>About</h4>
+                    <p>Jacob is a professional certified trainer that specializes in training for sport-specific activities.</p>
                  </div>
                  <div class="data">
-                   <h4>Membership Payment</h4>
-                    <p>$29.95 on 12/15/2021</p>
+                   <h4>Areas of Focus</h4>
+                    <ul>
+                        <li>Boxing/MMA</li>
+                        <li>Football</li>
+                        <li>Strength Conditioning</li>
+                    </ul>
               </div>
             </div>
         </div>
       
       <div class="projects">
-            <h3>Your Scheduled Sessions</h3>
+            <h3>Available Sessions</h3>
             <div class="projects_data">
                  <div class="data">
                     <h4>Recent</h4>

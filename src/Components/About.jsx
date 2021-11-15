@@ -21,8 +21,12 @@ Whether you’re new to fitness or an accomplished athlete, our coaches are high
 Here, you’ll never feel lost, alone or confused about what exercises to do or how to do them. That’s because your IronGround membership includes a lot more than just a room full of equipment. Whether you’re looking for group classes or private training, we’ll take care of everything—just show up ready to move and let the transformation begin.</p>
             {/* </div>
             <div className='footer-images'> */}
+            <a href='https://www.facebook.com/irongroundgym/' target='blank'>
                 <img src={facebook} width="100px" alt='facebook logo'/>
+                </a>
+            <a href='https://www.instagram.com/irongroundgym/?hl=en' target='blank'>   
                 <img src={instagram} width="100px"alt='instagram logo'/>
+                </a>
                 <img src={twitter} width="100px" alt='twitter logo'/>
             </div>
         </div>

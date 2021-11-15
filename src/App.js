@@ -9,6 +9,8 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Events from './Components/Events';
 import Login from './Components/Login';
+import Profile from './Components/Profile';
+import TrainerSchedule from './Components/TrainerSchedule'
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
      <Route path='/contact' component={Contact} />
      <Route path='/events' component={Events} />
      <Route path='/login' component={Login} />
+     <Route path='/profile' component={Profile} />
+     <Route path='/trainersched' component={TrainerSchedule} />
+     
 
     
      </Switch>

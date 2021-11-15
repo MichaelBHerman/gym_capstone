@@ -40,7 +40,7 @@ const Login = ({ submitForm }) => {
         </div>
        
         <button className='form-input-btn' type='submit'>
-          Log in
+          <a href='/profile'>Log in</a> 
         </button>
         
       </form>
