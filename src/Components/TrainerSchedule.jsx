@@ -22,7 +22,7 @@ function Profile () {
             <div class="info_data">
                  <div class="data">
                     <h4>About</h4>
-                    <p>Jacob is a professional certified trainer that specializes in training for sport-specific activities.</p>
+                    <p>Jacob is a professional certified trainer that specializes in training for sport-specific activities and strength conditioning.</p>
                  </div>
                  <div class="data">
                    <h4>Areas of Focus</h4>

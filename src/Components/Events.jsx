@@ -14,7 +14,7 @@ function Events() {
             {/* <h4>Check out some of our upcoming events held at IronGround Gym. Utah's Premier Powerlifting Venue!</h4> */}
             <div className='a-container'>
             <Eventsbox image={eimage3} title="Nightmare 11-22-21" />
-            <Eventsbox image={eimage1} title="APF 12-6-19"/>
+            <Eventsbox image={eimage1} title="APF 12-6-21"/>
             
             
             <Eventsbox image={eimage4} title="Havoc 12-21-21" />
