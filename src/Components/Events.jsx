@@ -13,10 +13,12 @@ function Events() {
             <h1>UPCOMING EVENTS AT IRONGROUND</h1>
             {/* <h4>Check out some of our upcoming events held at IronGround Gym. Utah's Premier Powerlifting Venue!</h4> */}
             <div className='a-container'>
-            <Eventsbox image={eimage1} title="APF"/>
-            <Eventsbox image={eimage2} title="Conquer" />
-            <Eventsbox image={eimage3} title="Nightmare" />
-            <Eventsbox image={eimage4} title="Havoc" />
+            <Eventsbox image={eimage3} title="Nightmare 11-22-21" />
+            <Eventsbox image={eimage1} title="APF 12-6-19"/>
+            
+            
+            <Eventsbox image={eimage4} title="Havoc 12-21-21" />
+            <Eventsbox image={eimage2} title="Conquer 1-13-22" />
                 
             </div>
         </div>

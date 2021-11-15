@@ -12,7 +12,7 @@ function Services () {
             <div className='youtubecontainer'>
 <iframe width="1237" height="696" src="https://www.youtube.com/embed/V9-XQeq8HUQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div id='services-features'>
-            <h1>SERVICES OFFERED AT IRONGROUND</h1>
+            <h1>IRONGROUND GYM</h1>
             
             <h4>Whatever you're training for... we have the means to help you achieve your goals!</h4>
             <div className='services-container'>

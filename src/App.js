@@ -11,6 +11,10 @@ import Events from './Components/Events';
 import Login from './Components/Login';
 import Profile from './Components/Profile';
 import TrainerSchedule from './Components/TrainerSchedule'
+import Profile1 from './Components/Profile1';
+import EventsSchedule from './Components/EventsSchedule';
+
+
 
 function App() {
   return (
@@ -28,8 +32,11 @@ function App() {
      <Route path='/contact' component={Contact} />
      <Route path='/events' component={Events} />
      <Route path='/login' component={Login} />
+     <Route path='/profilee' component={Profile1} />
      <Route path='/profile' component={Profile} />
      <Route path='/trainersched' component={TrainerSchedule} />
+     <Route path='/eventsched' component={EventsSchedule} />
+     
      
 
     

@@ -39,12 +39,15 @@ function Profile () {
             <h3>Available Sessions</h3>
             <div class="projects_data">
                  <div class="data">
-                    <h4>Recent</h4>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h4>Available Sessions</h4>
+                    <p>11/17/21 at 6pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
+                    <p>11/18/21 at 7pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
+                    <p>11/19/21 at 4pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
+                    <p>11/20/21 at 6pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
+                    <p>11/21/21 at 7pm. (1 Hour)    <button type='submit'>SCHEDULE</button></p>
                  </div>
                  <div class="data">
-                   <h4>Training With Jacob</h4>
-                    <p>11/17/21 at 6pm. (1 Hour)</p>
+                 {/* place more available sessions here */}
               </div>
             </div>
         </div>

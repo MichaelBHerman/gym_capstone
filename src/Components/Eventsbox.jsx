@@ -1,6 +1,8 @@
 import React from 'react';
 
+
 function Eventsbox(props) {
+   
     return(
         <div className='a-box'>
             <div className='a-b-img'>
@@ -8,8 +10,8 @@ function Eventsbox(props) {
             </div>
             <div className='a-b-text'>
                 <h2> {props.title} </h2>
-                <p> This is an introduction placeholder for this service </p>
-                <button className='trainer-btn'>CLICK TO SCHEDULE!</button>
+                {/* <p> This is an introduction placeholder for this service </p> */}
+                <button className='trainer-btn' ><a href='/eventsched'>CLICK TO REGISTER!</a></button>
             </div>
 
         </div>

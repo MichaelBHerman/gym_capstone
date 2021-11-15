@@ -8,7 +8,7 @@ function Trainersbox(props) {
             </div>
             <div className='a-b-text'>
                 <h2> {props.title} </h2>
-                <p> This is an introduction placeholder for this service </p>
+                {/* <p> This is an introduction placeholder for this service </p> */}
                 <button className='trainer-btn'><a href='/trainersched'>CLICK TO SCHEDULE!</a></button>
             </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './profile.css';
 
-function Profile () {
+function Profile1 () {
     return(
         <div>
        
@@ -33,11 +33,11 @@ function Profile () {
             <div class="projects_data">
                  <div class="data">
                     <h4>Events</h4>
-                    <p>You currently have no registered events.</p>
+                    <p>Nightmare on Deadlift Street.  11/22/21 at 5pm</p>
                  </div>
                  <div class="data">
-                   <h4>Training</h4>
-                    <p>You currently have no training sessions scheduled.</p>
+                   <h4>Training Sessions</h4>
+                    <p>Jacob White.  11/17/21 at 6pm (1 Hour)</p>
               </div>
             </div>
         </div>
@@ -52,4 +52,4 @@ function Profile () {
         
     )
 }
-export default Profile;
+export default Profile1;
