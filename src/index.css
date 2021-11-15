@@ -244,12 +244,49 @@ nav .menu-btn,
     justify-content: center;
     padding-top: 40px ;
     background-color: #000000;
-    /* background-image: url('./Components/images/inside.jpg'); */
+    /* background-image: url('./Components/images/comp2.jpg'); */
+    
+}
+#trainer-features{
+    width:100%;
+    height:120vh;
+    box-sizing: border-box;
+    font-family:'Lato';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px ;
+    background-color: #000000;
+    /* background-image: url('./Components/images/comp1.jpg'); */
+    
+}
+#events-features h1{
+    color: rgb(241, 54, 47);
+    font-size: 3rem;
+    font-weight: 500;
+}
+#events-features h4{
+    color: rgb(195, 19, 19);
+    font-weight: 500;
 }
 #features h1{
     color: #fff;
     font-size: 3rem;
     font-weight: 500;
+}
+#events-features{
+    width:100%;
+    height:120vh;
+    box-sizing: border-box;
+    font-family:'Lato';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px ;
+    background-color: #000000;
+    background-image: url('./Components/images/comp2.jpg');
 }
 .a-container{
     display: flex;

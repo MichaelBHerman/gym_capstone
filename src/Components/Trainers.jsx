@@ -9,7 +9,7 @@ import timage4 from './images/trainer5.jpeg';
 
 function Trainers() {
     return(
-        <div id='features'>
+        <div id='trainer-features'>
             <h1>MEET OUR TRAINERS</h1>
             <h4>Choose from our award-winning trainers that specialize in your specific needs.</h4>
             <div className='a-container'>

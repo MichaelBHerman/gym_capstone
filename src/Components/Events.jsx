@@ -9,9 +9,9 @@ import eimage4 from './images/holiday_havoc.png';
 
 function Events() {
     return(
-        <div id='features'>
+        <div id='events-features'>
             <h1>UPCOMING EVENTS AT IRONGROUND</h1>
-            <h4>Check out some of our upcoming events held at IronGround Gym. Utah's Premier Powerlifting Venue!</h4>
+            {/* <h4>Check out some of our upcoming events held at IronGround Gym. Utah's Premier Powerlifting Venue!</h4> */}
             <div className='a-container'>
             <Eventsbox image={eimage1} title="APF"/>
             <Eventsbox image={eimage2} title="Conquer" />
