@@ -258,7 +258,7 @@ nav .menu-btn,
     justify-content: center;
     padding-top: 40px ;
     background-color: #000000;
-    /* background-image: url('./Components/images/comp1.jpg'); */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5) ), url("./Components/images/trainersbackground.jpg");
     
 }
 #events-features h1{
